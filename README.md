@@ -1,14 +1,35 @@
-# Welcome to your CDK TypeScript project
+# AWS Data Engineering Program Project
 
-This is a blank project for TypeScript development with CDK.
+### Movie Database
+#### Determining the underlying statistics behind various aspects of the movie industry
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This is project works with a public dataset containing information pulled from IMDB and TMDB about various movies. 
 
-## Useful commands
+This dataset shows several segments relevant to the movie industry:
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+<li>Film budgets</li>
+<li>Film revenue</li>
+<li>Movie runtime</li>
+<li>Keywords describing the movie topics</li>
+<li>Movie ratings</li>
+<li>Number of user ratings</li>
+
+#### Tech Stack
+
+`NB: I will update this portion with diagrams for better visual`
+
+<li>AWS CDK</li>
+<li>Amazon Glue</li>
+<li>Amazon Athena</li>
+<li>Amazon S3</li>
+<li>AWS CLI</li>
+<li>QuickSight</li>
+<li>Python & Typescript</li>
+<li>Jupyter Notebooks</li>
+
+#### Challenges
+
+- Dataset was a challenge to wrangle as it had lots of nested objects and tables that were either inaccurate, mislabeled, or missing data
+- Joining multiple tables, when not done carefully, resulted in data duplication and uncaught leads erroneous insights.
+- Had minor issues with QuickSight getting proper viz; QuickSight often wants to aggregate by count or not aggregate values for certain graph types.
+
