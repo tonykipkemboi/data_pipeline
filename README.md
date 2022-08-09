@@ -7,25 +7,25 @@ This is project works with a public dataset containing information pulled from I
 
 This dataset shows several segments relevant to the movie industry:
 
-<li>Film budgets</li>
-<li>Film revenue</li>
-<li>Movie runtime</li>
-<li>Keywords describing the movie topics</li>
-<li>Movie ratings</li>
-<li>Number of user ratings</li>
+- Film budgets
+- Film revenue
+- Movie runtime
+- Keywords describing the movie topics
+- Movie ratings
+- Number of user ratings
 
 #### Tech Stack
 
 `NB: I will update this portion with diagrams for better visual`
 
-<li>AWS CDK</li>
-<li>Amazon Glue</li>
-<li>Amazon Athena</li>
-<li>Amazon S3</li>
-<li>AWS CLI</li>
-<li>QuickSight</li>
-<li>Python & Typescript</li>
-<li>Jupyter Notebooks</li>
+- AWS CDK
+- Amazon Glue
+- Amazon Athena
+- Amazon S3
+- AWS CLI
+- QuickSight
+- Python & Typescript
+- Jupyter Notebooks
 
 #### Challenges
 
